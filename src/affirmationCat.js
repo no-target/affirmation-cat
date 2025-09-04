@@ -26,13 +26,13 @@ export class AffirmationCat {
 
   getCatAscii() {
     return `  
-              |\\_._/|        
-              | o o |        
-              (  T  )       
-             .^\`-^-"'^.     
-             \`.  ;  .'     
-             | | | | |     
-            ((_((|))_)) `
+                 |\\_._/|        
+                 | o o |        
+                 (  T  )       
+                .^\`-^-"'^.     
+                \`.  ;  .'     
+                | | | | |     
+               ((_((|))_)) `
   }
 
   getComputerCatAscii() {
@@ -49,17 +49,17 @@ export class AffirmationCat {
 
   displayWelcomeMessage() {
     console.log(this.getCatAscii())
-    console.log("    \n\n Affirmation cat wants to tell you something. \n")
+    console.log("    \n\n     Affirmation cat wants to tell you something. \n")
   }
 
   displayAffirmation(name, affirmation) {
-    console.log(`\n\n\n\n\n Nice to meet you, ${name}!  \n\n\n     ${affirmation}. Take care and happy coding ♡`)
+    console.log(`\n\n\n\n\n\n     Nice to meet you, ${name}!  \n\n     ${affirmation}. Take care and happy coding ♡`)
     console.log(this.getComputerCatAscii())
     this.readLine.close()
   }
 
    promptName(affirmation) {
-      this.readLine.question("\n        Enter your name: ", (name) => {
+      this.readLine.question("\n     Enter your name: ", (name) => {
       this.displayAffirmation(name, affirmation)
     })
   }
