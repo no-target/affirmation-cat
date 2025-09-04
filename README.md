@@ -1,5 +1,5 @@
 # affirmation-cat
 
+npm start to run
 
-### npm start to run
-### enter your name to get an affirmation from a cat.
+enter your name to get an affirmation from a cat.
