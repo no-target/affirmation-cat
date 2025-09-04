@@ -1,0 +1,20 @@
+{
+  "name": "affirmation-cat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/no-target/affirmation-cat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/no-target/affirmation-cat/issues"
+  },
+  "homepage": "https://github.com/no-target/affirmation-cat#readme"
+}
